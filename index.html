@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="partie1" class="partie">
+    <h2>1. Culture managériale</h2>
+    <!-- Questions de la partie 1 -->
+    <p>Encouragez-vous la communication ouverte au sein de votre équipe ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="communication1" value="-1" required> Non
+        </label>
+        <label>
+            <input type="radio" name="communication1" value="1" required> Oui
+        </label>
+    </div>
+    <hr>
+    <p>Encouragez-vous l'initiative personnelle au sein de votre équipe ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="communication2" value="-1" required> Jamais
+        </label>
+        <label>
+            <input type="radio" name="communication2" value="-1" required> Parfois
+        </label>
+        <label>
+            <input type="radio" name="communication2" value="1" required> Régulièrement
+        </label>
+        <label>
+            <input type="radio" name="communication2" value="1" required> Systématiquement
+        </label>
+    </div>
+    <hr>
+    <p>Prenez-vous en compte les besoins spécifiques des salariés en télétravail par rapport à leurs collègues sur site ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="communication3" value="-1" required> Non
+        </label>
+        <label>
+            <input type="radio" name="communication3" value="1" required> Oui
+        </label>
+    </div>
+    <hr>
+    <p>Prenez-vous en compte les retours des salariés pour améliorer les conditions d’exercice du télétravail ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="communication4" value="-1" required> Jamais
+        </label>
+        <label>
+            <input type="radio" name="communication4" value="-1" required> Parfois
+        </label>
+        <label>
+            <input type="radio" name="communication4" value="1" required> Régulièrement
+        </label>
+        <label>
+            <input type="radio" name="communication4" value="1" required> Systématiquement
+        </label>
+    </div>
+    <hr>
+    <p>Adaptez-vous votre style de management en fonction des individus ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="communication5" value="-1" required> Jamais
+        </label>
+        <label>
+            <input type="radio" name="communication5" value="-1" required> Parfois
+        </label>
+        <label>
+            <input type="radio" name="communication5" value="1" required> Régulièrement
+        </label>
+        <label>
+            <input type="radio" name="communication5" value="1" required> Systématiquement
+        </label>
+    </div>
+    <hr>
+    <p>Comment gérez-vous l’organisation et l’équité d’accès aux informations entre les travailleurs sur site et les télétravailleurs ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="communication6" value="-1" required> Avec difficulté
+        </label>
+        <label>
+            <input type="radio" name="communication6" value="1" required> Sans difficulté
+        </label>
+        <label>
+            <input type="radio" name="communication6" value="-1" required> Ce n’est pas un sujet
+        </label>
+        <label>
+            <input type="radio" name="communication6" value="1" required> Je m’y suis formé
+        </label>
+    </div>
+    <hr>
+    <p>Avez-vous adapté le processus d’intégration des nouvelles recrues dans l’environnement hybride de travail ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="communication7" value="-1" required> Non
+        </label>
+        <label>
+            <input type="radio" name="communication7" value="1" required> Oui
+        </label>
+    </div>
+    <!-- Bouton pour passer à la partie suivante -->
+    <button id="suivant1">Suivant</button>
+</div>
+
+<div id="partie2" class="partie" style="display: none;">
+    <h2>2. Cadre organisationnel</h2>
+    <!-- Questions de la partie 2 -->
+    <p>Avez-vous formalisé des règles pour le télétravail ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="communication8" value="-1" required> Non
+        </label>
+        <label>
+            <input type="radio" name="communication8" value="1" required> Oui à titre individuel
+        </label>
+        <label>
+            <input type="radio" name="communication8" value="1" required> Oui à titre collectif
+        </label>
+        <label>
+            <input type="radio" name="communication8" value="1" required> A titre collectif et individuel
+        </label>
+    </div>
+    <hr>
+    <p>Le nombre de jours de télétravail est-il flexible selon les postes ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="communication9" value="-1" required> Non
+        </label>
+        <label>
+            <input type="radio" name="communication9" value="1" required> Oui
+        </label>
+    </div>
+    <hr>
+    <p>Organisez-vous des activités pour renforcer l'esprit d’équipe en présentiel et à distance ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="communication10" value="-1" required> Jamais
+        </label>
+        <label>
+            <input type="radio" name="communication10" value="-1" required> Parfois
+        </label>
+        <label>
+            <input type="radio" name="communication10" value="1" required> Régulièrement
+        </label>
+        <label>
+            <input type="radio" name="communication10" value="1" required> Systématiquement
+        </label>
+    </div>
+    <hr>
+    <p>L'organisation hybride du travail a-t-elle modifié la répartition des tâches entre télétravailleurs et travailleurs sur site ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="communication11" value="1" required> Pas du tout
+        </label>
+        <label>
+            <input type="radio" name="communication11" value="1" required> Légèrement
+        </label>
+        <label>
+            <input type="radio" name="communication11" value="-1" required> Modérément
+        </label>
+        <label>
+            <input type="radio" name="communication11" value="-1" required> Extrêmement
+        </label>
+    </div>
+    <hr>
+    <p>Prenez-vous en compte les besoins individuels dans l’organisation du télétravail ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="communication12" value="-1" required> Non
+        </label>
+        <label>
+            <input type="radio" name="communication12" value="1" required> Oui
+        </label>
+    </div>
+    <hr>
+    <p>Avez-vous conduit avec votre équipe un retour d'expérience sur l'organisation du télétravail ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="communication13" value="-1" required> Non
+        </label>
+        <label>
+            <input type="radio" name="communication13" value="-1" required> En cours d'élaboration
+        </label>
+        <label>
+            <input type="radio" name="communication13" value="1" required> Partiellement
+        </label>
+        <label>
+            <input type="radio" name="communication13" value="1" required> Oui, de manière complète
+        </label>
+    </div>
+    <hr>
+    <p>Votre employeur fournit-il le nécessaire pour un télétravail efficace qui prend également soin de la santé ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="communication14" value="-1" required> Non
+        </label>
+        <label>
+            <input type="radio" name="communication14" value="1" required> Oui
+        </label>
+    </div>
+    <hr>
+    <p>Utilisez-vous des outils numériques pour faciliter la communication et l'organisation à distance ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="communication15" value="-1" required> Non
+        </label>
+        <label>
+            <input type="radio" name="communication15" value="1" required> Oui
+        </label>
+    </div>
+    <!-- Bouton pour passer à la partie suivante -->
+    <button id="suivant2">Suivant</button>
+</div>
+
+<div id="partie3" class="partie" style="display: none;">
+    <h2>3. Performance</h2>
+    <!-- Questions de la partie 3 -->
+    <p>Avez-vous des indicateurs de performance clairs pour le télétravail ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="performance1" value="-1" required> Non
+        </label>
+        <label>
+            <input type="radio" name="performance1" value="1" required> Oui
+        </label>
+    </div>
+    <hr>
+    <p>Estimez-vous que le télétravail a eu un impact sur la productivité de votre équipe ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="performance2" value="-1" required> Impact Négatif
+        </label>
+        <label>
+            <input type="radio" name="performance2" value="-1" required> Neutre
+        </label>
+        <label>
+            <input type="radio" name="performance2" value="1" required> Impact Positif
+        </label>
+    </div>
+    <hr>
+    <p>Encouragez-vous l'équilibre entre vie professionnelle et vie personnelle ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="performance3" value="-1" required> Non
+        </label>
+        <label>
+            <input type="radio" name="performance3" value="1" required> Oui
+        </label>
+    </div>
+    <hr>
+    <p>Offrez-vous des opportunités d’évolution professionnelle aux salariés en télétravail ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="performance4" value="-1" required> Non
+        </label>
+        <label>
+            <input type="radio" name="performance4" value="1" required> Oui
+        </label>
+    </div>
+    <hr>
+    <p>Faites-vous des suivis individuels pour discuter des performances ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="performance5" value="-1" required> Jamais
+        </label>
+        <label>
+            <input type="radio" name="performance5" value="-1" required> Parfois
+        </label>
+        <label>
+            <input type="radio" name="performance5" value="1" required> Régulièrement
+        </label>
+        <label>
+            <input type="radio" name="performance5" value="1" required> Systématiquement
+        </label>
+    </div>
+    <hr>
+    <p>Encouragez-vous la prise de risques et acceptez-vous et assumez-vous le risque d’erreur pour stimuler l'innovation et la créativité ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="performance6" value="-1" required> Non
+        </label>
+        <label>
+            <input type="radio" name="performance6" value="1" required> Oui
+        </label>
+    </div>
+    <!-- Bouton pour passer à la partie suivante -->
+    <button id="suivant3">Suivant</button>
+</div>
+
+<div id="partie4" class="partie" style="display: none;">
+    <h2>4. Santé & prévention des risques</h2>
+    <!-- Questions de la partie 4 -->
+    <p>Etes-vous attentif à votre propre santé mentale et physique en tant que manager ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="sante1" value="-1" required> Non
+        </label>
+        <label>
+            <input type="radio" name="sante1" value="1" required> Oui
+        </label>
+    </div>
+    <hr>
+    <p>Avez-vous des retours d’expérience spontanés de vos équipes en télétravail ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="sante2" value="-1" required> Non
+        </label>
+        <label>
+            <input type="radio" name="sante2" value="1" required> Oui
+        </label>
+    </div>
+    <hr>
+    <p>Quelle importance donnez-vous aux retours d’expérience spontanés de vos équipes en télétravail ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="sante3" value="-1" required> Je n’en reçois pas
+        </label>
+        <label>
+            <input type="radio" name="sante3" value="-1" required> Chronophage
+        </label>
+        <label>
+            <input type="radio" name="sante3" value="1" required> Instructif
+        </label>
+    </div>
+    <hr>
+    <p>Existe-t-il des mesures pour prévenir l'isolement des salariés en télétravail ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="sante4" value="-1" required> Non
+        </label>
+        <label>
+            <input type="radio" name="sante4" value="1" required> Oui
+        </label>
+    </div>
+    <hr>
+    <p>Veillez-vous activement au respect du droit à la déconnexion ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="sante5" value="-1" required> Non
+        </label>
+        <label>
+            <input type="radio" name="sante5" value="1" required> Oui
+        </label>
+    </div>
+    <hr>
+    <p>Discutez-vous ouvertement des questions de santé et de bien-être avec votre équipe ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="sante6" value="-1" required> Non
+        </label>
+        <label>
+            <input type="radio" name="sante6" value="1" required> Oui
+        </label>
+    </div>
+    <hr>
+    <p>Avez-vous une politique de santé spécifique pour le télétravail ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="sante7" value="-1" required> Non
+        </label>
+        <label>
+            <input type="radio" name="sante7" value="1" required> Oui
+        </label>
+    </div>
+    <hr>
+    <p>Offrez-vous un soutien en cas de difficultés personnelles ou professionnelles ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="sante8" value="-1" required> Non
+        </label>
+        <label>
+            <input type="radio" name="sante8" value="1" required> Oui
+        </label>
+    </div>
+    <!-- Bouton pour passer à la partie suivante -->
+    <button id="suivant4">Suivant</button>
+</div>
+
+<div id="partie5" class="partie" style="display: none;">
+    <h2>5. Aisance numérique / sécurité informatique / confidentialité</h2>
+    <!-- Questions de la partie 5 -->
+    <p>Comment évaluez-vous votre aisance numérique et celle de votre équipe avec les outils informatiques utilisés pour le télétravail ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="aisance1" value="-1" required> Pas du tout à l'aise
+        </label>
+        <label>
+            <input type="radio" name="aisance1" value="-1" required> Un peu à l'aise
+        </label>
+        <label>
+            <input type="radio" name="aisance1" value="1" required> Moyennement à l'aise
+        </label>
+        <label>
+            <input type="radio" name="aisance1" value="-1" required> Très à l'aise
+        </label>
+    </div>
+    <hr>
+    <p>Le télétravail a-t-il conduit à une réflexion sur la digitalisation de l’organisation du travail (sur site et à distance) ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="aisance2" value="-1" required> Non
+        </label>
+        <label>
+            <input type="radio" name="aisance2" value="1" required> Oui
+        </label>
+    </div>
+    <hr>
+    <p>Avez-vous le sentiment que les processus de sécurité ou les outils mis à votre disposition nuisent à l’accomplissement de votre travail au quotidien ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="aisance3" value="-1" required> Non
+        </label>
+        <label>
+            <input type="radio" name="aisance3" value="1" required> Oui
+        </label>
+    </div>
+    <hr>
+    <p>Comment évaluez-vous la gestion globale de la sécurité et de la confidentialité dans votre environnement de travail numérique à distance ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="aisance4" value="-1" required> Je ne sais pas
+        </label>
+        <label>
+            <input type="radio" name="aisance4" value="-1" required> Absence de protocoles
+        </label>
+        <label>
+            <input type="radio" name="aisance4" value="1" required> Partiellement sécurisé et confidentiel
+        </label>
+        <label>
+            <input type="radio" name="aisance4" value="1" required> Sécurisé et confidentiel
+        </label>
+    </div>
+    <hr>
+    <p>Comment gérez-vous la formation en sécurité informatique et en protection des données personnelles pour votre équipe ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="aisance5" value="-1" required> Pas de formation
+        </label>
+        <label>
+            <input type="radio" name="aisance5" value="-1" required> En cours de planification
+        </label>
+        <label>
+            <input type="radio" name="aisance5" value="1" required> Formation occasionnelle
+        </label>
+        <label>
+            <input type="radio" name="aisance5" value="1" required> Formation régulière et complète
+        </label>
+    </div>
+    <hr>
+    <p>En cas de violation de la sécurité informatique ou de la protection des données personnelles, votre plan d'action est-il... ?</p>
+    <div class="options">
+        <label>
+            <input type="radio" name="aisance6" value="-1" required> Inexistant
+        </label>
+        <label>
+            <input type="radio" name="aisance6" value="-1" required> En cours d'élaboration
+        </label>
+        <label>
+            <input type="radio" name="aisance6" value="1" required> Existant mais non testé
+        </label>
+        <label>
+            <input type="radio" name="aisance6" value="1" required> Bien établi et testé
+        </label>
+    </div>
+    <!-- Bouton pour passer à la partie suivante -->
+    <button id="suivant5">Suivant</button>
+</div>
+
+
+<!-- Résultats du questionnaire -->
+<div id="resultats" class="résultat" style="display: none;">
+    <h1>Résultat du Diagnostic</h1>
+    <!-- Section pour afficher les résultats -->
+    <h2>1. Culture managériale</h2>
+    <div id="conseils_partie1" class="conseils"></div>
+    <p class="loin">Pour aller plus loin :</p>
+    <ul>
+        <li><a href="https://www.hbrfrance.fr/chroniques-experts/2023/01/53199-manager-une-equipe-hybride-avec-succes-ou-comment-articuler-temps-espace-et-nature-du-travail/" target="_blank">Manager une équipe hybride avec succès ou comment articuler temps, espace et nature du travail (Harvard Business Review)</a></li>
+        <li><a href="https://www.linkedin.com/learning/manager-une-equipe-virtuelle/bienvenue-dans-manager-une-equipe-virtuelle?resume=false" target="_blank">Manager une équipe virtuelle (LinkedIn)</a></li>
+        <li><a href="https://www.urssaf.fr/portail/home/actualites/toute-lactualite-employeur/transfrontaliers-teletravail.html" target="_blank">Télétravail des transfrontaliers</a></li>
+        <li><a href="https://www.anact.fr/recommandations-et-initiatives-pour-apprendre-mieux-manager-le-travail" target="_blank">Guide ANACT Apprendre à mieux manager le travail 2017</a></li>
+    </ul>
+    <h2>2. Cadre organisationnel</h2>
+    <div id="conseils_partie2" class="conseils"></div>
+    <p class="loin">Pour aller plus loin :</p>
+    <ul>
+        <li><a href="https://www.inrs.fr/media.html?refINRS=ED%206522" target="_blank">Postures sédentaires au travail, un enjeu pour votre santé (INRS)</a></li>
+        <li><a href="https://travail-emploi.gouv.fr/droit-du-travail/la-vie-du-contrat-de-travail/article/teletravail-mode-d-emploi" target="_blank">Dossier Télétravail : mode d’emploi (par le Ministère du Travail)</a></li>
+        <li><a href="https://www.cfecgc.org/publications/nos-guides/teletravail-frequence-indemnite-horaires-travail" target="_blank">Télétravail : fréquence, indemnité, horaires de travail ? (CFE-CGC)</a></li>
+        <li><a href="https://www.fonction-publique.gouv.fr/files/files/ArchivePortailFP/www.fonction-publique.gouv.fr/teletravail-0.html" target="_blank">FAQ sur le télétravail dans la fonction publique</a></li>
+        <li><a href="https://paca.dreets.gouv.fr/sites/paca.dreets.gouv.fr/IMG/pdf/odds_13_guide_pour_une_ne_gociation_te_le_travail_re_ussie_tpepme-2.pdf" target="_blank">Pour une négociation réussie sur le télétravail TPE/PME</a></li>
+        <li><a href="https://www.anact.fr/organiser-et-realiser-un-retour-dexperience-rex-ou-retex" target="_blank">Fiche pratique ANACT Organiser et réaliser un retour d’expérience</a></li>
+    </ul>
+    <h2>3. Performance</h2>
+    <div id="conseils_partie3" class="conseils"></div>
+    <p class="loin">Pour aller plus loin :</p>
+    <ul>
+        <li><a href="https://www.francenum.gouv.fr/guides-et-conseils/gestion-des-ressources-humaines/teletravail/teletravail-12-conseils-pratiques" target="_blank">Télétravailleurs : 12 bonnes pratiques pour réussir à travailler chez soi et être efficace (FranceNum)</a></li>
+        <li><a href="https://www.cfecgc.org/uploads/media/61b9f40eb9188/guide-qvct-extrait.pdf" target="_blank">Guide de la QVTC : Qualité de vie et des conditions de travail (CFE-CGC)</a></li>
+        <li>Pour se former :
+            <ul>
+                <li><a href="https://www.service-public.fr/particuliers/vosdroits/N177" target="_blank">Les dispositifs pour les salariés de droit privé</a></li>
+                <li><a href="https://www.service-public.fr/particuliers/vosdroits/N186" target="_blank">Les dispositifs pour les agents de la Fonction Publique</a></li>
+                <li><a href="https://www.economie.gouv.fr/entreprises/formation-chef-entreprise#" target="_blank">Les dispositifs pour les chefs d’entreprise</a></li>
+                <li><a href="https://travail-emploi.gouv.fr/ministere/acteurs/partenaires/opco" target="_blank">L’OPCO, l’appui technique aux représentants des branches professionnelles </a></li>
+                <li><a href="https://www.certificat-clea.fr/" target="_blank">Les Certifications CleA Management et CleA numérique</a></li>
+                <li><a href="https://www.anact.fr/formations" target="_blank">Formation ANACT Concilier Performance et Santé</a></li>
+            </ul>
+        </li>
+    </ul>
+    <h2>4. Santé & prévention des risques</h2>
+    <div id="conseils_partie4" class="conseils"></div>
+    <p class="loin">Pour aller plus loin :</p>
+    <ul>
+        <li><a href="https://www.inrs.fr/publications/juridique/focus-juridiques/focus-droit-deconnexion.html" target="_blank">Droit à la déconnexion : comment le mettre en œuvre dans l’entreprise ? (INRS)</a></li>
+        <li><a href="https://www.linkedin.com/learning/prendre-soin-de-sa-sante-mentale-en-teletravail/bienvenue-dans-prendre-soin-de-sa-sante-mentale-en-teletravail" target="_blank">Prendre soin de sa santé mentale en télétravail (Cours LinkedIn)</a></li>
+        <li><a href="https://www.anact.fr/regions" target="_blank">Le réseau des Agences Régionales pour l’Amélioration des Conditions de Travail (ARACT)</a></li>
+        <li><a href="https://cfecgc.org/actualites/comment-identifier-le-sep-comment-mieux-le-prevenir" target="_blank">Guide CFE-CGC Prévenir le syndrôme d’épuisement professionnel 2021</a></li>
+    </ul>
+    <h2>5. Aisance numérique / sécurité informatique / confidentialité</h2>
+    <div id="conseils_partie5" class="conseils"></div>
+    <p class="loin">Pour aller plus loin :</p>
+    <ul>
+        <li><a href="https://www.anact.fr/10-questions-sur-la-maitrise-des-transformations-numeriques" target="_blank">Téléchargez le guide des bonnes pratiques de transformation numérique en entreprise (par l'ANACT)</a></li>
+        <li><a href="https://www.calameo.com/cfecgc/read/003664566071549f23d87" target="_blank">Charte éthique et numérique RH (CFE-CGC)</a></li>
+        <li><a href="https://www.certificat-clea.fr/clea-numerique/referentiel-clea-numerique/" target="_blank">Certifications professionnelles sur le sujet dont CleA numérique</a></li>
+        <li><a href="https://www.francenum.gouv.fr/guides-et-conseils/strategie-numerique/diagnostic-numerique" target="_blank">Diagnostic numérique (FranceNum)</a></li>
+        <li><a href="https://www.cnil.fr/sites/cnil/files/atoms/files/bpi-cnil-rgpd_guide-tpe-pme.pdf" target="_blank">Guide de sensibilisation au RGPD pour les petites et moyennes entreprises (CNIL)</a></li>
+        <li><a href="https://cnil.fr/fr/salaries-en-teletravail-quelles-sont-les-bonnes-pratiques-suivre" target="_blank">Salariés en télétravail : quelles sont les bonnes pratiques à suivre ? (CNIL)</a></li>
+        <li><a href="https://cyber.gouv.fr/" target="_blank">Sécurité informatique : site de l’ANSSI</a></li>
+        <li><a href="https://autodiag-num.artisanat.fr/" target="_blank">Outil d’autodiagnostic maturité numérique Artisanat</a></li>
+        <li><a href="http://www.diag-numerique.fr/" target="_blank">Outil d’autodiagnostic maturité numérique MEDEF</a></li>
+    </ul>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+<form id="formEmail" method="post" action="send_email.php">
+    <label for="email">Envoyer une copie par email :</label>
+    <input type="email" id="email" name="email" required>
+    <button type="submit">Envoyer</button>
+</form>
+
+.progress-bar {
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+.progress {
+    width: 0%;
+    height: 30px;
+    background-color: #4caf50;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    const parties = document.querySelectorAll('.partie');
+    const suivants = document.querySelectorAll('[id^="suivant"]');
+    const partieIds = Array.from(parties).map(partie => partie.id);
+    let currentPartieIndex = 0;
+    const progressBar = document.getElementById('progressBar');
+
+    suivants.forEach(function(suivant, index) {
+        suivant.addEventListener("click", function() {
+            if (verifierReponses()) {
+                parties[currentPartieIndex].style.display = "none";
+                currentPartieIndex++;
+                if (currentPartieIndex < parties.length) {
+                    parties[currentPartieIndex].style.display = "block";
+                    updateProgressBar();
+                    parties[currentPartieIndex].scrollIntoView({ behavior: "smooth", block: "start" });
+                } else {
+                    calculerResultats();
+                    document.getElementById("resultats").style.display = "block";
+                    document.getElementById("resultats").scrollIntoView({ behavior: "smooth", block: "start" });
+                    progressBar.style.width = "100%";
+                }
+            } else {
+                alert("Veuillez répondre à toutes les questions avant de passer à la partie suivante.");
+            }
+        });
+    });
+
+    function updateProgressBar() {
+        const progress = (currentPartieIndex + 1) / parties.length * 100;
+        progressBar.style.width = progress + "%";
+        progressBar.innerHTML = "Étape " + (currentPartieIndex + 1) + " de " + parties.length;
+    }
+
+    function verifierReponses() {
+        const questions = parties[currentPartieIndex].querySelectorAll('input[type="radio"]');
+        for (let i = 0; i < questions.length; i++) {
+            const name = questions[i].getAttribute('name');
+            if (parties[currentPartieIndex].querySelectorAll('input[type="radio"][name="' + name + '"]:checked').length === 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    function calculerResultats() {
+        partieIds.forEach(function(partieId) {
+            const partie = document.getElementById(partieId);
+            const checkboxes = partie.querySelectorAll('input[type="radio"]');
+            let totalScore = 0;
+
+            checkboxes.forEach(function(checkbox) {
+                if (checkbox.checked) {
+                    totalScore += parseInt(checkbox.value);
+                }
+            });
+
+            afficherResultats(partieId, totalScore);
+        });
+    }
+
+    // Fonction pour afficher les résultats d'une partie
+    function afficherResultats(partieId, totalScore) {
+        let resultat = "";
+
+        // Déterminer le résultat en fonction de la somme des scores
+        if (totalScore > 0) {
+            resultat = "positif";
+        } else if (totalScore < 0) {
+            resultat = "bas";
+        } else {
+            resultat = "moyen";
+        }
+
+        afficherConseils(partieId, resultat);
+
+        // Ajouter les résultats à la section 'resultats'
+        const partieIndex = parseInt(partieId.charAt(partieId.length - 1)) - 1;
+        const resultatSection = document.getElementById("resultats_partie" + (partieIndex + 1));
+        if (resultatSection) {
+            resultatSection.innerHTML = "<p>Résultat de la partie " + partieId + ": " + resultat + "</p>";
+        } else {
+            console.error("La section de résultats pour la partie " + partieId + " est introuvable.");
+        }
+    }
+
+    function afficherConseils(partieId, resultat) {
+        // Code pour afficher les conseils en fonction du résultat
+        // Similaire à ce que vous avez déjà implémenté
+    }
+});
+
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const parties = document.querySelectorAll('.partie');
+    const suivants = document.querySelectorAll('[id^="suivant"]');
+    const partieIds = Array.from(parties).map(partie => partie.id);
+    let currentPartieIndex = 0;
+
+    suivants.forEach(function(suivant, index) {
+        suivant.addEventListener("click", function() {
+            if (verifierReponses()) {
+                parties[currentPartieIndex].style.display = "none";
+                currentPartieIndex++;
+                if (currentPartieIndex < parties.length) {
+                    parties[currentPartieIndex].style.display = "block";
+                    parties[currentPartieIndex].scrollIntoView({ behavior: "smooth", block: "start" });
+                } else {
+                    calculerResultats();
+                    document.getElementById("resultats").style.display = "block";
+                    document.getElementById("resultats").scrollIntoView({ behavior: "smooth", block: "start" });
+                }
+            } else {
+                alert("Veuillez répondre à toutes les questions avant de passer à la partie suivante.");
+            }
+        });
+    });
+    
+    
+
+    function verifierReponses() {
+        const questions = parties[currentPartieIndex].querySelectorAll('input[type="radio"]');
+        for (let i = 0; i < questions.length; i++) {
+            const name = questions[i].getAttribute('name');
+            if (parties[currentPartieIndex].querySelectorAll('input[type="radio"][name="' + name + '"]:checked').length === 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    function calculerResultats() {
+        partieIds.forEach(function(partieId) {
+            const partie = document.getElementById(partieId);
+            const checkboxes = partie.querySelectorAll('input[type="radio"]');
+            let totalScore = 0;
+    
+            checkboxes.forEach(function(checkbox) {
+                if (checkbox.checked) {
+                    totalScore += parseInt(checkbox.value);
+                }
+            });
+    
+            afficherResultats(partieId, totalScore);
+        });
+    }
+    
+    // Fonction pour afficher les résultats d'une partie
+    function afficherResultats(partieId, totalScore) {
+        let resultat = "";
+    
+        // Déterminer le résultat en fonction de la somme des scores
+        if (totalScore > 0) {
+            resultat = "positif";
+        } else if (totalScore < 0) {
+            resultat = "bas";
+        } else {
+            resultat = "moyen";
+        }
+
+    
+    afficherConseils(partieId, resultat);
+
+    // Ajouter les résultats à la section 'resultats'
+    const partieIndex = parseInt(partieId.charAt(partieId.length - 1)) - 1;
+    const resultatSection = document.getElementById("resultats_partie" + (partieIndex + 1));
+    if (resultatSection) {
+        resultatSection.innerHTML = "<p>Résultat de la partie " + partieId + ": " + resultat + "</p>";
+    } else {
+        console.error("La section de résultats pour la partie " + partieId + " est introuvable.");
+    }
+}
+
+function afficherConseils(partieId, resultat) {
+    let conseils = "";
+    switch (partieId) {
+        case "partie1":
+            switch (resultat) {
+                case "positif":
+                    conseils = "Bilan :<br></br>Vous avez créé un environnement de confiance où les idées peuvent librement circuler et où les salariés se sentent valorisés.<br></br><br></br>Conseils personnalisés :<br></br>Continuez d'encourager l’expression des salariés, de libérer les initiatives et d'adapter votre style de management en fonction des individus. La prise en compte des besoins spécifiques des salariés en télétravail et l'adaptation de l'intégration des nouvelles recrues dans l'environnement hybride sont des pratiques exemplaires. N’hésitez pas à partager vos pratiques avec vos pairs.<br></br><br></br>Exemples de bonnes pratiques :<br></br> - Organisez des rencontres physiques dédiées à l'échange d'informations entre télétravailleurs et travailleurs sur site<br></br> - Participez à des ateliers entre manageurs pour partager vos bonnes pratiques<br></br> - Utilisez des outils numériques de conversation (whats app, olvid, signal…) pour faciliter les échanges informels au sein du groupe";
+                    break;
+                case "moyen":
+                    conseils = "Bilan :<br></br>Rappelez-vous combien il est important de créer un environnement de confiance, c’est un préalable indispensable à l'expression de salariés sur leur travail.<br></br><br></br>Conseils personnalisés :<br></br>Encouragez davantage l'initiative personnelle en reconnaissant et en valorisant les contributions individuelles. Essayez d'adapter plus fréquemment votre style de management aux besoins et préférences de chaque membre de votre équipe. Assurez-vous que tous les salariés, qu'ils soient en télétravail ou sur site, aient un accès équitable à l'information et aux ressources de l'entreprise.<br></br><br></br>Exemples de bonnes pratiques :<br></br> - Prenez des mesures pour faciliter une communication ouverte, comme des réunions hebdomadaires sans ordre du jour où chaque membre peut partager ses idées ou préoccupations<br></br> - Organisez des sessions de formation sur les outils de collaboration numérique pour tous les salariés en vous inspirant des guides existants.<br></br> - Mettez en œuvre un système de mentorat pour les nouveaux arrivants, favorisant leur intégration dans l'environnement hybride.";
+                    break;
+                case "bas":
+                    conseils = "Bilan :<br></br>Vous devez créer un environnement de travail de confiance au service de l’expression des salariés.<br></br><br></br>Conseils personnalisés :<br></br>Commencez par instaurer un climat de confiance où l'expression sur le travail et l’initiative personnelle sont encouragées et valorisées. Identifiez les besoins spécifiques des télétravailleurs et ajustez vos méthodes de management pour les soutenir efficacement. Mettez en place des processus d'intégration adaptés au télétravail et ouvrez des canaux de communication dédiés pour recueillir et agir sur les retours des salariés.<br></br><br></br>Exemples de bonnes pratiques :<br></br> - S’ils n’existent pas, créer des guides de télétravail spécifiques, incluant des recommandations pour l'autonomie et l'accès à l'information.<br></br> - Organisez des points individuels réguliers pour échanger sur la situation de travail.<br></br> - Organisez ou suivez une formation sur le management à distance.<br></br> - Mettez en œuvre des enquêtes régulières pour évaluer l'efficacité des pratiques de télétravail et identifier les domaines d'amélioration.<br></br> - Définissez un processus d’intégration pour les nouveaux arrivants.";
+                    break;
+                default:
+                    conseils = "";
+            }
+            break;
+        case "partie2":
+            switch (resultat) {
+                case "positif":
+                    conseils = "Bilan :<br></br>Votre engagement à formaliser des règles et à évaluer l’organisation du télétravail montre une approche proactive pour offrir un cadre organisationnel clair à votre équipe.<br></br><br></br>Conseils personnalisés :<br></br>Poursuivez l'implication de votre équipe dans l'amélioration continue des règles du télétravail. Soutenez l'équipement et l'aménagement des espaces de travail à domicile pour promouvoir un télétravail sain et productif. Variez les formats de travail hybride pour s'adapter à tous.<br></br><br></br>Exemples de bonnes pratiques :<br></br> - Adaptez les politiques de télétravail aux circonstances personnelles ou exceptionnelles, comme la garde d'enfants ou les risques climatiques.<br></br> - Proposez un budget pour l'aménagement de l'espace de travail à domicile.<br></br> - Encouragez l'ergonomie au poste de travail pour prévenir les troubles musculosquelettiques.";
+                    break;
+                case "moyen":
+                    conseils = "Bilan :<br></br>Vous avez établi des bases pour le télétravail, mais des améliorations sont nécessaires.<br></br><br></br>Conseils personnalisés :<br></br>Formalisez les règles de télétravail en prenant en compte à la fois les besoins collectifs et individuels, en assurant une discussion ouverte pour un retour d'expérience complet. Veillez à ce que le télétravail soit adapté aux besoins des différents postes, en fournissant l'équipement nécessaire pour un environnement de travail à distance sain. Impliquez davantage les salariés dans ce processus pour qu'ils se sentent écoutés et reconnus.<br></br><br></br>Exemples de bonnes pratiques :<br></br> - Mettez en place des réunions régulières pour évaluer et ajuster les règles de télétravail en fonction des postes.<br></br> - Définissez des règles pour fournir un équipement adapté à chacun avec un budget adéquat.<br></br> - Faites un bilan régulier avec votre équipe sur la pratique du télétravail.";
+                    break;
+                case "bas":
+                    conseils = "Bilan :<br></br>La pratique du télétravail manque de règles communes et claires et d'adaptabilité, ce qui peut impacter la productivité et le bien-être.<br></br><br></br>Conseils personnalisés :<br></br>Développez des règles claires de télétravail et un suivi régulier pour répondre aux besoins individuels et collectifs. La mise en place d'une structure claire aidera à prévenir les malentendus et à améliorer la productivité.<br></br><br></br>Exemples de bonnes pratiques :<br></br> - Lancez une enquête pour identifier les besoins et attentes en télétravail.<br></br> - Négociez un accord ou charte pour fixer un cadre collectif.<br></br> - Formalisez individuellement les règles pour chaque salarié.<br></br> - Organisez des formations sur les outils de travail à distance.<br></br> - Faites un bilan régulier avec votre équipe sur la pratique du télétravail.";
+                    break;
+                default:
+                    conseils = "";
+            }
+            break;
+        case "partie3":
+            switch (resultat) {
+                case "positif":
+                    conseils = "Bilan :<br></br>Vous favorisez la productivité tout en maintenant un équilibre vie professionnelle / personnelle sain.<br></br><br></br>Conseils personnalisés :<br></br>Continuez de valoriser l'autonomie, l’adaptabilité et le développement professionnel, tout en assurant un suivi personnalisé. Continuez à suivre les indicateurs, notamment de charge de travail, et d'ajuster les objectifs pour maintenir l'alignement avec les besoins de l'entreprise et le bien-être des membres de l’équipe. Célébrez les succès et identifiez les domaines d'amélioration de manière constructive.<br></br><br></br>Exemples de bonnes pratiques :<br></br> - Poursuivez les réunions régulières (hebdomadaires) avec l’équipe.<br></br> - Maintenez les points individuels avec chaque membre de l’équipe.<br></br> - Conservez des moments communs en présentiel.";
+                    break;
+                case "moyen":
+                    conseils = "Bilan :<br></br>La productivité est plutôt bonne, mais certains aspects pourraient être optimisés pour un meilleur équilibre et engagement.<br></br><br></br>Conseils personnalisés :<br></br>Travaillez à clarifier et à communiquer les indicateurs de performance. Explorez les raisons derrière l'impact neutre du télétravail sur la productivité et identifiez les actions pour améliorer ces aspects. Veillez à ce que la personne à distance ait les moyens de gérer l’équilibre entre sa vie personnelle et sa vie professionnelle avec une charge de travail adéquate. Amplifiez votre suivi personnalisé et permettez la prise d’initiative en acceptant les éventuelles erreurs. Sachez trouver le bon équilibre entre contrôle et autonomie. Développez la formation professionnelle continue sur les outils numériques et le management à distance.<br></br><br></br>Exemples de bonnes pratiques :<br></br> - Définissez des objectifs clairs et mesurables.<br></br> - Instaurez des entretiens individuels réguliers pour discuter des objectifs et de la progression de chacun.<br></br> - Abordez les besoins de la formation continue. Passez ou faites passer les certifications Clea numérique et Clea management.<br></br> - Conservez des moments communs en présentiel de convivialité.";
+                    break;
+                case "bas":
+                    conseils = "Bilan :<br></br>L'impact du télétravail sur la productivité est incertain, et l'équilibre travail/vie personnelle pourrait être amélioré.<br></br><br></br>Conseils personnalisés :<br></br>Interrogez vous sur la pertinence de l’organisation du télétravail pour votre activité ou pour la personne concernée. Il est crucial d'établir des indicateurs de performance spécifiques au télétravail et d’identifier les facteurs contribuant à un impact négatif. Engagez-vous dans une réflexion stratégique pour ajuster les pratiques de télétravail afin d'améliorer la productivité.<br></br><br></br>Exemples de bonnes pratiques :<br></br> - Mettez en place un système de retour d’expérience régulier avec l’équipe et individuellement.<br></br> - Assurez-vous que le salarié en télétravail puisse le réaliser dans de bonnes conditions logistiques.<br></br> - Organisez des sessions de formation dédiées à la gestion du temps, aux outils numériques et au management à distance.<br></br> - Veillez au respect des pauses et au droit à la déconnexion.";
+                    break;
+                default:
+                    conseils = "";
+            }
+            break;
+        case "partie4":
+            switch (resultat) {
+                case "positif":
+                    conseils = "Bilan :<br></br>Vous êtes acteur dans la préservation de votre santé mentale et physique ainsi que de celle des membres de votre équipe, en prenant en compte la dimension humaine dans la gestion du travail hybride.<br></br><br></br>Conseils personnalisés :<br></br>Poursuivez les échanges réguliers et de qualité avec vos collaborateurs pour repérer les signes de mal-être. Encouragez l'équilibre entre vie professionnelle et personnelle, en respectant le droit à la déconnexion. Continuez à faire  preuve d'écoute active et à être attentif aux besoins individuels, tout en cherchant du soutien auprès d’interlocuteurs qualifiés internes ou externes (RH, représentants du personnel, organisations professionnelles, ARACT…).<br></br><br></br>Exemples de bonnes pratiques :<br></br> - Instaurez des points de contact réguliers via des appels ou visioconférences pour maintenir le lien et l'engagement.<br></br> - Fixez des plages horaires d’accessibilité professionnelle qui préservent la vie privée, en rappelant les bonnes pratiques de déconnexion.<br></br> - Organisez des journées de travail collectives en présentiel pour renforcer la cohésion d'équipe, en alternant travail sur site et à distance.";
+                    break;
+                case "moyen":
+                    conseils = "Bilan :<br></br>Vous avez conscience de l'importance de la santé mentale et physique au travail, mais des actions supplémentaires pourraient être bénéfiques.<br></br><br></br>Conseils personnalisés :<br></br>Améliorez la communication avec vos équipes pour assurer un suivi personnalisé de leur bien-être. Encouragez la déconnexion. Soyez vigilant aux signes de fatigue ou de stress chez vos collaborateurs et n'hésitez pas à solliciter des ressources externes pour vous aider dans cette démarche.<br></br><br></br>Exemples de bonnes pratiques :<br></br> - Créez des enquêtes régulières pour évaluer le bien-être des salariés, identifiez les domaines à améliorer et lancez les actions adéquates .<br></br> - Proposez des sessions de formation sur le management ainsi que sur la prévention des risques psychosociaux.<br></br> - Profitez des points individuels pour détecter et prévenir les risques de surcharge ou de mal être psychologique.<br></br> - Définissez clairement les périodes d’accessibilité professionnelle.";
+                    break;
+                case "bas":
+                    conseils = "Bilan :<br></br>Il est essentiel d'adopter rapidement une approche proactive concernant la santé mentale et physique au travail des membres de votre équipe pour éviter l'installation de risques psychosociaux.<br></br><br></br>Conseils personnalisés :<br></br>Commencez par établir un dialogue ouvert et régulier sur les sujets de qualité de vie et des conditions de travail dans un environnement hybride. Assurez-vous que l’organisation collective du travail ne génère pas de risques pour la santé et préserve la qualité de vie et les conditions de travail.Sensibilisez-vous et formez-vous, ainsi que vos équipes, aux signes de détresse psychologique et aux moyens d'intervention. Mettez en œuvre des mesures de soutien, comme la mise à disposition de services de soutien psychologique ou de médiation en cas de conflit.<br></br><br></br>Exemples de bonnes pratiques :<br></br> - Instaurez des réunions hebdomadaires sans ordre du jour précis, permettant aux salariés d'exprimer librement leurs préoccupations ou suggestions sur le travail.<br></br> - Sollicitez des conseil auprès de spécialistes en organisation du travail, comme par exemple auprès de l’ARACT<br></br> - Créez un partenariat avec des prestataires de santé mentale pour offrir des consultations confidentielles aux collaborateurs s.<br></br> - Développez une charte ou un accord de télétravail qui inclut des engagements clairs de l'entreprise envers la santé mentale, la déconnexion et le respect de la vie privée.<br></br> - Contactez la médecine du travail pour vous faire accompagner sur les enjeux de santé mentale et physique individuels et collectifs.";
+                    break;
+                default:
+                    conseils = "";
+            }
+            break;
+        case "partie5":
+            switch (resultat) {
+                case "positif":
+                    conseils = "Bilan :<br></br>Votre maîtrise des outils numériques et votre gestion de la sécurité informatique sont exemplaires.<br></br><br></br>Conseils personnalisés :<br></br>Maintenez une formation continue en sécurité informatique et renforcez les pratiques de confidentialité.<br></br><br></br>Exemples de bonnes pratiques :<br></br> - Organisez des simulations de phishing <br></br> - Communiquez régulièrement auprès de tous les salariés<br></br> - Révisez régulièrement les protocoles de sécurité<br></br> - Encouragez la formation continue sur la sécurité des données.";
+                    break;
+                case "moyen":
+                    conseils = "Bilan :<br></br>Vous êtes relativement à l'aise avec la technologie, mais il y a une marge d'amélioration en matière de sécurité et de confidentialité.<br></br><br></br>Conseils personnalisés :<br></br>Améliorez la formation en sécurité informatique et mettez en place des évaluations régulières des pratiques de confidentialité.<br></br><br></br>Exemples de bonnes pratiques :<br></br> - Mettez en œuvre des audits de sécurité réguliers.<br></br> - Organisez des formations annuelles sur la sécurité.<br></br> - Créez des guides de bonnes pratiques pour la confidentialité.";
+                    break;
+                case "bas":
+                    conseils = "Bilan :<br></br>La gestion de la sécurité informatique et la maîtrise des outils numériques nécessitent des améliorations significatives.<br></br><br></br>Conseils personnalisés :<br></br>Évaluez votre maturité numérique sur l’ensemble des sujets liés au numérique : visibilité en ligne, marketing digital, vente en ligne, ressources internes, sécurité et RGPD, etc.<br></br><br></br>Exemples de bonnes pratiques :<br></br> - Faites un diagnostic numérique qui est la première étape incontournable de la transformation numérique de l’entreprise.<br></br> - Investissez dans la formation et les outils pour renforcer la sécurité et la confidentialité dans l'environnement de télétravail.<br></br> - Lancez un programme de formation obligatoire sur la sécurité, établissez des procédures claires en cas de violation de données, effectuez des tests de pénétration réguliers.";
+                    break;
+                default:
+                    conseils = "";
+            }
+            break;
+        default:
+            conseils = "";
+    }
+
+    const conseilsSection = document.getElementById("conseils_" + partieId);
+    if (conseilsSection) {
+        conseilsSection.innerHTML = "<p>" + conseils + "</p>";
+    }
+}
+
+    
+
+});
+</script>
+
+
+
+
+<style>
+body {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.partie {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+  max-width: 70%;
+  margin: 20px auto;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  flex-wrap: space-between;
+}
+
+.options label {
+    width: 25%;
+    text-align: center;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 15px 65px;
+  background-color: #54387F;
+  color: #fff;
+  border: 2px solid #54387F;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: transparent;
+  color: #54387F;
+  border: 2px solid #54387F;
+}
+
+
+.partie input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: auto;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  position: relative;
+}
+
+.partie input[type="radio"]::before {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #54387F;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.partie input[type="radio"]:checked::before {
+  background-color: #fff;
+  border-color: #54387F;
+}
+
+.partie input[type="radio"]::after {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #54387F;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s, width 0.3s, height 0.3s;
+  opacity: 0;
+}
+
+.partie input[type="radio"]:checked::after {
+  opacity: 1;
+  width: 20px;
+  height: 20px;
+}
+
+
+
+.partie p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.partie label {
+    display: block;
+    margin-bottom: 80px;
+    font-size: 20px;
+}
+
+.partie hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px auto;
+    margin-bottom: 60px;
+    width: 90%;
+}
+
+.partie h2 {
+  margin-bottom: 120px;
+  font-size: 35px;
+}
+
+
+.résultat {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+  max-width: 70%;
+  margin: 20px auto;
+}
+
+.résultat h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 35px;
+}
+
+.résultat h2 {
+  margin-bottom: 70px;
+  margin-top: 100px;
+  font-size: 30px;
+}
+
+.résultat p {
+  font-size: 20px;
+}
+
+p.loin {
+  margin-top: 80px;
+}
+
+.résultat li {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+</style>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .progress-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px 0;
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+        }
+        .progress-step {
+            text-align: center;
+            position: relative;
+            flex: 1;
+        }
+        .progress-step::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: calc(100% + 20px);
+            height: 2px;
+            background: #ccc;
+            transform: translateX(-50%);
+            z-index: -1;
+        }
+        .progress-step:first-child::after {
+            width: 50%;
+            left: 50%;
+        }
+        .progress-step:last-child::after {
+            width: 50%;
+            left: 0;
+        }
+        .step {
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            border-radius: 50%;
+            background: #ccc;
+            color: #fff;
+            display: inline-block;
+            z-index: 1;
+            position: relative;
+        }
+        .step.completed {
+            background: #4caf50;
+        }
+        .step-text {
+            margin-top: 10px;
+            font-size: 12px;
+        }
+    </style>
+	
+	
+	
